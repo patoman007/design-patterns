@@ -1,0 +1,20 @@
+{
+  "name": "dessign-patterns",
+  "version": "1.0.0",
+  "description": "At any given moment, someone struggles with the same software design problems you have. And, chances are, someone else has already solved your problem.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Dessign",
+    "patterns"
+  ],
+  "author": "@patoman007",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
