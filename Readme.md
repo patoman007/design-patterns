@@ -1,5 +1,12 @@
 # Design Patterns 
----
+-----
+
+At any given moment, someone struggles with the same software design problems you have. 
+And, chances are, someone else has already solved your problem.
+
+This repo aim to be a quick software design concepts reference.
+
+The examples are implemented on Typescript.
 
 ## Design Principles
 
