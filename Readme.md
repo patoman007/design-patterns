@@ -13,12 +13,16 @@ The examples are implemented on Typescript.
 - Identify the aspects of your application that vary and separate them  from what stays the same.
 - Program to an super type (interface), not an implementation.
 - Favor composition over inheritnce.
+- Strive for loosely coupled designs between objects that interact.
 
 ## Design Patterns
 
 - ### __Strategy Pattern__
   Define a family of algorithms, encapsulates each one, and make them interchangeable. 
   Strategy  lets the alghoritm vary independently from clients that use it
+
+- ### __Observer Pattern__
+  Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
 # License
 
