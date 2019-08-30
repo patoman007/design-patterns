@@ -14,6 +14,7 @@ The examples are implemented on Typescript.
 - Program to an super type (interface), not an implementation.
 - Favor composition over inheritnce.
 - Strive for loosely coupled designs between objects that interact.
+- Classes should be open for extension, but closed for modification.
 
 ## Design Patterns
 
@@ -23,6 +24,10 @@ The examples are implemented on Typescript.
 
 - ### __Observer Pattern__
   Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+
+- ### __Decorator Pattern___
+  Attach additional responsabilities to an object dinamically.
+  Provide a flexible alternative to subclassing for extending functionality.
 
 # License
 
