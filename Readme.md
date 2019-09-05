@@ -34,6 +34,9 @@ Do not depend upon concrete classes.
 - ### __Singleton Pattern___
   Ensureas a class has only one instance, and provides a global point of access to it.
 
+- ### __Command Pattern___
+  Encapsulates a request as an object, thereby letting you parametize other objects with different requests, queue or log requests, and support undoable options.
+
 # License
 
 This project is available under the MIT license. See the __LICENSE__ file for more info.
