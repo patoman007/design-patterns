@@ -1,6 +1,5 @@
 import { Espresso } from "./models/beverages/espresso-beverage.class";
 import { DarkRoast } from "./models/beverages/darkroast-beverage.class";
-import { HouseBlend } from "./models/beverages/houseblend-beverage.class";
 import { MochaDecorator } from "./models/decorators/mocha-decorator.class";
 
 (() => {

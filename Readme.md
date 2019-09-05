@@ -15,6 +15,8 @@ The examples are implemented on Typescript.
 - Favor composition over inheritnce.
 - Strive for loosely coupled designs between objects that interact.
 - Classes should be open for extension, but closed for modification.
+- __Dependency Inversion Principle:__ Depend upon abstractions. 
+Do not depend upon concrete classes.
 
 ## Design Patterns
 
@@ -28,6 +30,9 @@ The examples are implemented on Typescript.
 - ### __Decorator Pattern___
   Attach additional responsabilities to an object dinamically.
   Provide a flexible alternative to subclassing for extending functionality.
+
+- ### __Singleton Pattern___
+  Ensureas a class has only one instance, and provides a global point of access to it.
 
 # License
 
