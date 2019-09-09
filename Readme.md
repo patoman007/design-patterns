@@ -49,6 +49,10 @@ together so that changes in one part of the system cascade to other parts.
   Provides a unified interface to a set of interfaces in a subsystem.
   Facade defines a higher level interface that make the subsystem easier to use.
 
+- ### __Template Method Pattern__
+  Define the skeleton of an algorithm in a operation, deferring some steps to subclasses.
+  Lets subclasses redefine certain steps of an algorithm without changing it structure.
+
 # License
 
 This project is available under the MIT license. See the __LICENSE__ file for more info.
