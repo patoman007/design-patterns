@@ -21,6 +21,10 @@ Do not depend upon concrete classes.
 It means be careful of the number of classes it interacts with.
 This principle prevents us from creating designs that have a large number of classes coupled
 together so that changes in one part of the system cascade to other parts.
+- __Single Responsability__ A class should have only one reason to change.
+Every responsability of a class is an area of potential change. More than one
+responsability means more than one area of change. This principle guide us to
+keep each class to a single responsability.
 
 ## Design Patterns
 
@@ -52,6 +56,15 @@ together so that changes in one part of the system cascade to other parts.
 - ### __Template Method Pattern__
   Define the skeleton of an algorithm in a operation, deferring some steps to subclasses.
   Lets subclasses redefine certain steps of an algorithm without changing it structure.
+
+- ### __Iterator Pattern__
+  It provides a way to access the elements of an aggregate object sequentially without exposing 
+  its underlying representation.
+
+- ### __Composite Pattern__
+  It allows you to compose objects into tree structures to represent part-whole 
+  hieranchies. Composite let clients treat individual objects and compositions of
+  objects uniformly.
 
 # License
 
